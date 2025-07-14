@@ -1,0 +1,41 @@
+name: mafia
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.3.10
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icon/mafia.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: lib/assets/splash/mafia.png
+  android: true
+  ios: true
+  web: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/card_back.png
+    - lib/assets/images/mafia.png
+    - lib/assets/images/doc.png
+    - lib/assets/images/villager.png
+    - lib/assets/icon/mafia.png
+    - lib/assets/splash/mafia.png
