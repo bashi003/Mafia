@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  audioplayers: ^5.2.1
   flutter_native_splash: ^2.3.10
   flutter_launcher_icons: ^0.13.1
 
@@ -33,6 +34,10 @@ flutter_native_splash:
 flutter:
   uses-material-design: true
   assets:
+    - lib/assets/sounds/city_sleep.mp3
+    - lib/assets/sounds/mafia_wake.mp3
+    - lib/assets/sounds/doctor_wake.mp3
+    - lib/assets/sounds/city_wake.mp3
     - lib/assets/images/card_back.png
     - lib/assets/images/mafia.png
     - lib/assets/images/doc.png
