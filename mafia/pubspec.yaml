@@ -11,12 +11,13 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
   flutter_native_splash: ^2.3.10
-  flutter_launcher_icons: ^0.13.1
+  flutter_launcher_icons: ^0.14.4
+  audioplayers: ^5.2.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 flutter_icons:
   android: true
@@ -33,9 +34,13 @@ flutter_native_splash:
 flutter:
   uses-material-design: true
   assets:
-    - lib/assets/images/card_back.png
-    - lib/assets/images/mafia.png
-    - lib/assets/images/doc.png
-    - lib/assets/images/villager.png
-    - lib/assets/icon/mafia.png
-    - lib/assets/splash/mafia.png
+    - assets/images/card_back.png
+    - assets/images/mafia.png
+    - assets/images/doctor.png
+    - assets/images/villager.png
+    - assets/icon/mafia.png
+    - assets/splash/mafia.png
+    - assets/sounds/city_sleep.mp3
+    - assets/sounds/mafia_wake.mp3
+    - assets/sounds/doctor_wake.mp3
+    - assets/sounds/city_wake.mp3
