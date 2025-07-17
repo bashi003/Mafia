@@ -18,7 +18,7 @@ class MafiaGame extends StatelessWidget {
         scaffoldBackgroundColor: Colors.grey,
         primarySwatch: Colors.grey,
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.black,
+          backgroundColor: Colors.grey,
           foregroundColor: Colors.black,
           elevation: 0,
         ),
